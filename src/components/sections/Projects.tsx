@@ -88,7 +88,7 @@ const Projects: React.FC<ProjectsProps> = ({ setActiveSection }) => {
         
         <div className="text-center fade-in">
           <a 
-            href="https://github.com/alexchen" 
+            href="https://github.com/adityapatel0209" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 border border-white text-white font-medium rounded hover:bg-white hover:bg-opacity-10 transition-colors duration-300"

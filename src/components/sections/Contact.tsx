@@ -108,7 +108,7 @@ const Contact: React.FC<ContactProps> = ({ setActiveSection }) => {
               <h3 className="text-xl font-semibold mb-4">Connect With Me</h3>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com/yourusername" 
+                  href="https://github.com/adityapatel0209" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors"
@@ -116,7 +116,7 @@ const Contact: React.FC<ContactProps> = ({ setActiveSection }) => {
                   <Github size={20} />
                 </a>
                 <a 
-                  href="https://linkedin.com/in/yourusername" 
+                  href="https://linkedin.com/in/adityapatel0209" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors"
@@ -124,7 +124,7 @@ const Contact: React.FC<ContactProps> = ({ setActiveSection }) => {
                   <Linkedin size={20} />
                 </a>
                 <a 
-                  href="https://twitter.com/yourusername" 
+                  href="https://twitter.com/adityapatel0209" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors"
