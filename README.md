@@ -55,4 +55,4 @@ MIT License - feel free to use this template for your own portfolio!
 
 ## Author
 
-Aditya Patel 
+Aditya Patel
