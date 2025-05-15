@@ -14,16 +14,12 @@ export const skillsData = {
       description: 'Server-side React applications'
     },
     { 
-      name: 'Tailwind CSS',
-      description: 'Utility-first styling'
+      name: 'HTML/CSS',
+      description: 'Semantic markup and modern styling'
     },
     { 
-      name: 'HTML5',
-      description: 'Semantic markup'
-    },
-    { 
-      name: 'CSS3',
-      description: 'Modern styling & animations'
+      name: 'JavaScript',
+      description: 'Modern ES6+ development'
     }
   ],
   backend: [
@@ -40,31 +36,25 @@ export const skillsData = {
       description: 'NoSQL database'
     },
     { 
-      name: 'PostgreSQL',
+      name: 'MySQL',
       description: 'Relational database'
     },
     { 
-      name: 'REST APIs',
-      description: 'API architecture'
-    },
-    { 
-      name: 'GraphQL',
-      description: 'Query language for APIs'
+      name: 'Cassandra',
+      description: 'Distributed database'
     }
   ],
   tools: [
-    { name: 'Git', category: 'Version Control' },
-    { name: 'Docker', category: 'Containerization' },
-    { name: 'AWS', category: 'Cloud Platform' },
-    { name: 'Jest', category: 'Testing' },
-    { name: 'Webpack', category: 'Build Tool' },
+    { name: 'Git/GitHub', category: 'Version Control' },
+    { name: 'Agile', category: 'Development Methodology' },
+    { name: 'Bash', category: 'Scripting' },
+    { name: 'PowerShell', category: 'Scripting' },
     { name: 'VS Code', category: 'IDE' },
-    { name: 'Figma', category: 'Design' },
-    { name: 'GitHub', category: 'Collaboration' },
-    { name: 'Redux', category: 'State Management' },
-    { name: 'Vercel', category: 'Deployment' },
-    { name: 'Firebase', category: 'Backend as a Service' },
-    { name: 'Postman', category: 'API Testing' }
+    { name: 'Mongoose', category: 'Database ODM' },
+    { name: 'SQL', category: 'Database Query Language' },
+    { name: 'NoSQL', category: 'Database Type' },
+    { name: 'Web Development', category: 'Development Practice' },
+    { name: 'CI/CD', category: 'Development Practice' }
   ]
 };
 
@@ -72,90 +62,66 @@ export const skillsData = {
 export const projectsData = [
   {
     id: 1,
-    title: 'Task Manager Dashboard',
-    description: 'A responsive task management application with drag-and-drop functionality, user authentication, and real-time updates.',
-    image: 'https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/example',
+    title: 'Belong - Inclusive Communities Platform',
+    description: 'First place winning project at the Inclusive Communities Hackathon. A full-stack web platform designed to support socially isolated individuals, featuring an AI chatbot and dynamic content management.',
+    image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg', // Community/connection themed image
+    technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'SQL'],
+    liveUrl: 'https://github.com/adityapatel0209/Belong',
+    githubUrl: 'https://github.com/adityapatel0209/Belong',
   },
   {
     id: 2,
-    title: 'E-commerce Platform',
-    description: 'A full-featured online shopping platform with product catalog, shopping cart, user authentication, and payment processing.',
-    image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg',
-    technologies: ['Next.js', 'Stripe', 'PostgreSQL', 'Tailwind CSS'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/example',
+    title: 'Companion Bot',
+    description: 'AI-powered conversational agent built with React.js and Gemini API, achieving 30% higher user engagement through emotionally intelligent responses.',
+    image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg', // AI/chatbot themed image
+    technologies: ['React.js', 'JavaScript', 'Gemini API'],
+    liveUrl: 'https://github.com/adityapatel0209/Companion_Bot',
+    githubUrl: 'https://github.com/adityapatel0209/Companion_Bot',
   },
   {
     id: 3,
-    title: 'Weather Forecast App',
-    description: 'A weather application that shows current conditions and 5-day forecast with interactive charts and location-based data.',
-    image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg',
-    technologies: ['React', 'TypeScript', 'OpenWeather API', 'Chart.js'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/example',
-  },
-  {
-    id: 4,
-    title: 'Social Media Dashboard',
-    description: 'A comprehensive dashboard for managing social media accounts, scheduling posts, and analyzing engagement metrics.',
-    image: 'https://images.pexels.com/photos/920382/pexels-photo-920382.jpeg',
-    technologies: ['React', 'Redux', 'Express.js', 'Social APIs'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/example',
-  },
-  {
-    id: 5,
-    title: 'Recipe Finder App',
-    description: 'A recipe application that allows users to search for recipes by ingredients, save favorites, and create shopping lists.',
-    image: 'https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg',
-    technologies: ['React Native', 'Firebase', 'Spoonacular API'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/example',
-  },
-  {
-    id: 6,
-    title: 'Fitness Tracker',
-    description: 'A workout tracking application with exercise logging, progress charts, and personalized workout recommendations.',
-    image: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg',
-    technologies: ['React', 'TypeScript', 'MongoDB', 'D3.js'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/example',
-  },
+    title: 'Guhuza Quiz App',
+    description: 'API-driven quiz platform with leaderboard and authentication system, featuring responsive design and real-time score tracking.',
+    image: 'https://images.pexels.com/photos/5905708/pexels-photo-5905708.jpeg', // Quiz/education themed image
+    technologies: ['React.js', 'JavaScript', 'SQLite', 'Guhuza API'],
+    liveUrl: 'https://github.com/adityapatel0209/guhuza',
+    githubUrl: 'https://github.com/adityapatel0209/guhuza',
+  }
 ];
 
 // Education data
 export const educationData = {
   formal: [
     {
-      degree: 'Bachelor of Science in Computer Science',
-      institution: 'University of Technology',
-      description: 'Specialized in Software Engineering with a focus on web technologies and databases.',
-      period: '2019 - 2023',
+      degree: 'Diploma in Computer Programming',
+      institution: 'Niagara College',
+      description: 'President\'s Honour Roll – Fall 2023, Cumulative GPA: 80 (82)',
+      period: 'September 2023 - March 2025',
+      courses: [
+        'Software Development (98)',
+        'Web Authoring Fundamentals (99)',
+        'Database Essentials (92)',
+        'The Art of Script Programming (89)',
+        'Network Security (90)',
+        'Project Planning & Design'
+      ],
+      achievements: [
+        'First Place Winner - Inclusive Communities Hackathon',
+        'President\'s Honour Roll – Fall 2023',
+        'Cumulative GPA: 80 (82)'
+      ]
     },
   ],
   certifications: [
     {
-      title: 'Full Stack Web Development',
-      issuer: 'Udemy',
-      date: 'June 2023',
-    },
-    {
-      title: 'React - The Complete Guide',
-      issuer: 'Academind',
-      date: 'March 2023',
-    },
-    {
-      title: 'JavaScript Algorithms and Data Structures',
-      issuer: 'freeCodeCamp',
-      date: 'January 2023',
-    },
-    {
-      title: 'MongoDB for Developers',
-      issuer: 'MongoDB University',
-      date: 'November 2022',
-    },
+      title: 'Diploma in Computer Programming',
+      issuer: 'Niagara College',
+      date: 'March 2025',
+      achievements: [
+        'President\'s Honour Roll – Fall 2023',
+        'Cumulative GPA: 80 (82)',
+        'First Place Winner - Inclusive Communities Hackathon'
+      ]
+    }
   ],
 };
