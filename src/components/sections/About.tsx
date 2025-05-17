@@ -65,7 +65,7 @@ const About: React.FC<AboutProps> = ({ setActiveSection }) => {
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
-            <p className="text-2xl font-semibold">Aditya Patel</p>
+            <p className="text-2xl font-semibold">Alex Chen</p>
             <p className="text-gray-300">Full Stack Developer</p>
           </div>
         </div>

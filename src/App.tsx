@@ -15,7 +15,7 @@ function App() {
     <div className="relative bg-black text-white min-h-screen">
       <Sidebar activeSection={activeSection} />
       
-      <main className="ml-16 md:ml-20">
+      <main className="ml-0 md:ml-20">
         <div id="hero" className="section">
           <Hero setActiveSection={setActiveSection} />
         </div>

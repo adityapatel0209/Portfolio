@@ -29,12 +29,12 @@ const Hero: React.FC<HeroProps> = ({ setActiveSection }) => {
     };
   }, [setActiveSection]);
 
-  const scrollToNextSection = () => {
-    document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+  const scrollToSection = (sectionId: string) => {
+    document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
-    <div ref={sectionRef} className="flex flex-col justify-center w-full max-w-6xl mx-auto h-screen">
+    <div ref={sectionRef} className="flex flex-col justify-center w-full max-w-6xl mx-auto h-screen px-6 md:px-8">
       <div className="space-y-6">
         <div className="slide-in-left">
           <h2 className="text-xl md:text-2xl font-light text-gray-400">Hello, I'm</h2>
@@ -55,22 +55,42 @@ const Hero: React.FC<HeroProps> = ({ setActiveSection }) => {
             performance, and intuitive user experiences.
           </p>
         </div>
-        <div className="slide-in-left flex space-x-4" style={{ animationDelay: '0.8s' }}>
-          <button className="px-6 py-3 mt-4 bg-white text-black font-medium rounded hover:bg-gray-200 transition-colors duration-300">
-            View My Work
+        <div className="slide-in-left flex flex-col sm:flex-row gap-4" style={{ animationDelay: '0.8s' }}>
+          <button
+            onClick={() => scrollToSection('projects')}
+            className="group relative px-6 py-3 backdrop-blur-lg bg-white/10 rounded-full
+              border border-white/20 overflow-hidden transition-all duration-300
+              hover:border-white/40 hover:bg-white/20
+              hover:shadow-[0_0_20px_rgba(255,255,255,0.2)]"
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0
+              translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
+            <span className="relative z-10">View My Work</span>
           </button>
-          <button className="px-6 py-3 mt-4 border border-white text-white font-medium rounded hover:bg-white hover:bg-opacity-10 transition-colors duration-300">
-            Contact Me
+          <button
+            onClick={() => scrollToSection('contact')}
+            className="group relative px-6 py-3 backdrop-blur-lg bg-white/10 rounded-full
+              border border-white/20 overflow-hidden transition-all duration-300
+              hover:border-white/40 hover:bg-white/20
+              hover:shadow-[0_0_20px_rgba(255,255,255,0.2)]"
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0
+              translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
+            <span className="relative z-10">Contact Me</span>
           </button>
         </div>
       </div>
 
       <button 
-        onClick={scrollToNextSection} 
-        className="absolute bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce"
+        onClick={() => scrollToSection('about')} 
+        className="absolute bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce
+          w-10 h-10 rounded-full backdrop-blur-lg bg-white/10 border border-white/20
+          flex items-center justify-center
+          hover:bg-white/20 hover:border-white/40 transition-all duration-300
+          hover:shadow-[0_0_20px_rgba(255,255,255,0.2)]"
         aria-label="Scroll to next section"
       >
-        <ChevronDown className="text-white" size={32} />
+        <ChevronDown className="text-white" size={24} />
       </button>
     </div>
   );

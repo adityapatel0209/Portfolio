@@ -1,128 +1,37 @@
 // Skills data
 export const skillsData = {
-  categories: [
+  technicalSkills: [
+    { name: 'JavaScript', level: 90 },
+    { name: 'TypeScript', level: 85 },
+    { name: 'HTML/CSS', level: 95 },
+    { name: 'React.js', level: 90 },
+    { name: 'Next.js', level: 80 },
+    { name: 'Node.js', level: 85 }
+  ],
+  toolsAndTech: [
+    {
+      name: 'Languages & Markup',
+      skills: ['JavaScript', 'TypeScript', 'HTML/CSS']
+    },
     {
       name: 'Frontend',
-      icon: 'Layout',
-      items: [
-        {
-          name: 'React.js',
-          description: 'Component-based UI development with modern hooks and context API',
-          level: 'Advanced',
-          color: 'blue',
-          projects: 5
-        },
-        {
-          name: 'TypeScript',
-          description: 'Type-safe JavaScript development for robust applications',
-          level: 'Intermediate',
-          color: 'indigo',
-          projects: 4
-        },
-        {
-          name: 'Next.js',
-          description: 'Server-side React applications with optimized performance',
-          level: 'Intermediate',
-          color: 'purple',
-          projects: 3
-        },
-        {
-          name: 'HTML/CSS',
-          description: 'Semantic markup and modern styling with responsive design',
-          level: 'Advanced',
-          color: 'orange',
-          projects: 6
-        },
-        {
-          name: 'JavaScript',
-          description: 'Modern ES6+ development with async programming',
-          level: 'Advanced',
-          color: 'yellow',
-          projects: 7
-        }
-      ]
+      skills: ['React.js', 'Next.js']
     },
     {
-      name: 'Backend',
-      icon: 'Server',
-      items: [
-        {
-          name: 'Node.js',
-          description: 'Server-side JavaScript runtime for scalable applications',
-          level: 'Intermediate',
-          color: 'green',
-          projects: 4
-        },
-        {
-          name: 'Express.js',
-          description: 'Web application framework for building RESTful APIs',
-          level: 'Intermediate',
-          color: 'teal',
-          projects: 3
-        },
-        {
-          name: 'MongoDB',
-          description: 'NoSQL database for flexible data storage',
-          level: 'Intermediate',
-          color: 'emerald',
-          projects: 3
-        },
-        {
-          name: 'MySQL',
-          description: 'Relational database management system',
-          level: 'Intermediate',
-          color: 'cyan',
-          projects: 2
-        },
-        {
-          name: 'Cassandra',
-          description: 'Distributed database for high scalability',
-          level: 'Basic',
-          color: 'sky',
-          projects: 1
-        }
-      ]
+      name: 'Backend & Frameworks',
+      skills: ['Node.js', 'Express.js', 'REST APIs']
     },
     {
-      name: 'Tools',
-      icon: 'Tool',
-      items: [
-        {
-          name: 'Git/GitHub',
-          description: 'Version control and collaboration platform',
-          level: 'Advanced',
-          color: 'gray',
-          projects: 8
-        },
-        {
-          name: 'Agile',
-          description: 'Development methodology for efficient project management',
-          level: 'Intermediate',
-          color: 'slate',
-          projects: 4
-        },
-        {
-          name: 'VS Code',
-          description: 'Integrated development environment',
-          level: 'Advanced',
-          color: 'zinc',
-          projects: 8
-        },
-        {
-          name: 'Mongoose',
-          description: 'MongoDB object modeling tool',
-          level: 'Intermediate',
-          color: 'stone',
-          projects: 3
-        },
-        {
-          name: 'CI/CD',
-          description: 'Continuous Integration and Deployment practices',
-          level: 'Intermediate',
-          color: 'neutral',
-          projects: 3
-        }
-      ]
+      name: 'Databases',
+      skills: ['MongoDB', 'MySQL', 'PostgreSQL', 'Cassandra']
+    },
+    {
+      name: 'Development & Tools',
+      skills: ['Agile', 'CI/CD', 'VS Code', 'Postman', 'Figma', 'Jira']
+    },
+    {
+      name: 'Scripting & Version Control',
+      skills: ['Bash', 'PowerShell', 'Git', 'GitHub']
     }
   ]
 };

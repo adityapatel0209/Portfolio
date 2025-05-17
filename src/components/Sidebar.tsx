@@ -24,15 +24,15 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection }) => {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const id = entry.target.id;
-            document.querySelectorAll('.nav-item').forEach((item) => {
-              item.classList.remove('active');
-            });
-            document.querySelector(`.nav-item[data-id="${id}"]`)?.classList.add('active');
-          }
-        });
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const id = entry.target.id;
+          document.querySelectorAll('.nav-item').forEach((item) => {
+            item.classList.remove('active');
+          });
+          document.querySelector(`.nav-item[data-id="${id}"]`)?.classList.add('active');
+        }
+      });
       },
       { threshold: 0.7 }
     );
@@ -62,11 +62,11 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection }) => {
             }`}
             data-id={item.id}
           >
-            {item.icon}
+              {item.icon}
             {isHovered && (
               <span className="absolute -bottom-10 left-1/2 -translate-x-1/2 px-2 py-1 bg-black/80 backdrop-blur-sm rounded text-xs whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                {item.label}
-              </span>
+              {item.label}
+            </span>
             )}
           </button>
         ))}
