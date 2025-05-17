@@ -6,6 +6,7 @@ import Skills from './components/sections/Skills';
 import Projects from './components/sections/Projects';
 import Education from './components/sections/Education';
 import Contact from './components/sections/Contact';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
           <Contact setActiveSection={setActiveSection} />
         </div>
       </main>
+      <Analytics />
     </div>
   );
 }
