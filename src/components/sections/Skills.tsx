@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { skillsData } from '../../data/portfolioData';
 
+// Updated Skills component with new categories and icons
 interface SkillsProps {
   setActiveSection: (section: string) => void;
 }
