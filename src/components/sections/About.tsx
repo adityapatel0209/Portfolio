@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import hackathonImage from '../../data/hackathon.jpg';
 
 interface AboutProps {
   setActiveSection: (section: string) => void;
@@ -58,14 +59,14 @@ const About: React.FC<AboutProps> = ({ setActiveSection }) => {
         </div>
         
         <div className="relative h-80 md:h-[500px] w-full rounded-lg overflow-hidden slide-in-right">
-          <div className="absolute inset-0 bg-gradient-to-tr from-black to-transparent opacity-60 z-10"></div>
+          <div></div>
           <img 
-            src="https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg" 
-            alt="Developer working" 
+            src={hackathonImage} 
+            alt="Aditya Patel" 
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
-            <p className="text-2xl font-semibold">Alex Chen</p>
+            <p className="text-2xl font-semibold">Aditya Patel</p>
             <p className="text-gray-300">Full Stack Developer</p>
           </div>
         </div>
