@@ -116,20 +116,12 @@ const Contact: React.FC<ContactProps> = ({ setActiveSection }) => {
                   <Github size={20} />
                 </a>
                 <a 
-                  href="https://linkedin.com/in/adityapatel0209" 
+                  href="https://www.linkedin.com/in/aditya-patel-52859a274/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors"
                 >
                   <Linkedin size={20} />
-                </a>
-                <a 
-                  href="https://twitter.com/adityapatel0209" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors"
-                >
-                  <Twitter size={20} />
                 </a>
               </div>
             </div>
