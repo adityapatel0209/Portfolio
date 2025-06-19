@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Github } from 'lucide-react';
 
 interface HeroProps {
   setActiveSection: (section: string) => void;
@@ -78,6 +78,20 @@ const Hero: React.FC<HeroProps> = ({ setActiveSection }) => {
               translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
             <span className="relative z-10">Contact Me</span>
           </button>
+          <a
+            href="https://github.com/adityapatel0209"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative px-6 py-3 backdrop-blur-lg bg-white/10 rounded-full
+              border border-white/20 overflow-hidden transition-all duration-300
+              hover:border-white/40 hover:bg-white/20
+              hover:shadow-[0_0_20px_rgba(255,255,255,0.2)] inline-flex items-center justify-center"
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0
+              translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
+            <Github className="relative z-10 mr-2" size={20} />
+            <span className="relative z-10">GitHub</span>
+          </a>
         </div>
       </div>
 
