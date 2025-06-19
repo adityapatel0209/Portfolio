@@ -43,7 +43,7 @@ const Projects: React.FC<ProjectsProps> = ({ setActiveSection }) => {
         </div>
         
         <div className="space-y-24">
-          {projectsData.slice(0, 3).map((project, index) => (
+          {projectsData.slice(0, 5).map((project, index) => (
             <div 
               key={project.id}
               className="group relative bg-gray-900/50 backdrop-blur-sm rounded-xl p-6

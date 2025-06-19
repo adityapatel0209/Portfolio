@@ -44,7 +44,7 @@ export const projectsData = [
     description: 'First place winning project at the Inclusive Communities Hackathon. A full-stack web platform designed to support socially isolated individuals, featuring an AI chatbot and dynamic content management.',
     image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg', // Community/connection themed image
     technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'SQL'],
-    liveUrl: 'https://github.com/adityapatel0209/Belong',
+    liveUrl: 'https://belong-adityapatel.link',
     githubUrl: 'https://github.com/adityapatel0209/Belong',
   },
   {
@@ -64,6 +64,24 @@ export const projectsData = [
     technologies: ['React.js', 'JavaScript', 'SQLite', 'Guhuza API'],
     liveUrl: 'https://github.com/adityapatel0209/guhuza',
     githubUrl: 'https://github.com/adityapatel0209/guhuza',
+  },
+  {
+    id: 4,
+    title: 'Portfolio Website',
+    description: 'Modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. Features smooth animations, functional contact form, and professional design.',
+    image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg', // Portfolio/website themed image
+    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'EmailJS'],
+    liveUrl: 'https://github.com/adityapatel0209/Portfolio',
+    githubUrl: 'https://github.com/adityapatel0209/Portfolio',
+  },
+  {
+    id: 5,
+    title: 'GitHub Profile',
+    description: 'My GitHub profile showcasing various projects, contributions, and technical skills. Includes repositories for web development, data analytics, and full-stack applications.',
+    image: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg', // GitHub/coding themed image
+    technologies: ['Git', 'GitHub', 'Open Source', 'Version Control'],
+    liveUrl: 'https://github.com/adityapatel0209',
+    githubUrl: 'https://github.com/adityapatel0209',
   }
 ];
 
