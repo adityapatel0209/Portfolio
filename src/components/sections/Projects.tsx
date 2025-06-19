@@ -91,17 +91,19 @@ const Projects: React.FC<ProjectsProps> = ({ setActiveSection }) => {
                   </div>
 
                   <div className="flex gap-4 pt-4">
-                    <a 
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-4 py-2 bg-white text-black rounded-lg
-                        transform transition-all duration-300
-                        hover:translate-y-[-2px] hover:shadow-[0_4px_12px_rgba(255,255,255,0.3)]"
-                    >
-                      <ExternalLink size={18} />
-                      <span>Live Demo</span>
-                    </a>
+                    {project.liveUrl && (
+                      <a 
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 px-4 py-2 bg-white text-black rounded-lg
+                          transform transition-all duration-300
+                          hover:translate-y-[-2px] hover:shadow-[0_4px_12px_rgba(255,255,255,0.3)]"
+                      >
+                        <ExternalLink size={18} />
+                        <span>Live Demo</span>
+                      </a>
+                    )}
                     <a 
                       href={project.githubUrl}
                       target="_blank"

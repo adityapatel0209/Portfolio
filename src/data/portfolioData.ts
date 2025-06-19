@@ -53,7 +53,6 @@ export const projectsData = [
     description: 'AI-powered conversational agent built with React.js and Gemini API, achieving 30% higher user engagement through emotionally intelligent responses.',
     image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg', // AI/chatbot themed image
     technologies: ['React.js', 'JavaScript', 'Gemini API'],
-    liveUrl: 'https://github.com/adityapatel0209/Companion_Bot',
     githubUrl: 'https://github.com/adityapatel0209/Companion_Bot',
   },
   {
@@ -62,7 +61,6 @@ export const projectsData = [
     description: 'API-driven quiz platform with leaderboard and authentication system, featuring responsive design and real-time score tracking.',
     image: 'https://images.pexels.com/photos/5905708/pexels-photo-5905708.jpeg', // Quiz/education themed image
     technologies: ['React.js', 'JavaScript', 'SQLite', 'Guhuza API'],
-    liveUrl: 'https://github.com/adityapatel0209/guhuza',
     githubUrl: 'https://github.com/adityapatel0209/guhuza',
   },
   {
@@ -71,7 +69,6 @@ export const projectsData = [
     description: 'Modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. Features smooth animations, functional contact form, and professional design.',
     image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg', // Portfolio/website themed image
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'EmailJS'],
-    liveUrl: 'https://github.com/adityapatel0209/Portfolio',
     githubUrl: 'https://github.com/adityapatel0209/Portfolio',
   },
   {
@@ -80,7 +77,6 @@ export const projectsData = [
     description: 'My GitHub profile showcasing various projects, contributions, and technical skills. Includes repositories for web development, data analytics, and full-stack applications.',
     image: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg', // GitHub/coding themed image
     technologies: ['Git', 'GitHub', 'Open Source', 'Version Control'],
-    liveUrl: 'https://github.com/adityapatel0209',
     githubUrl: 'https://github.com/adityapatel0209',
   }
 ];
