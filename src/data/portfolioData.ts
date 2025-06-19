@@ -44,7 +44,7 @@ export const projectsData = [
     description: 'First place winning project at the Inclusive Communities Hackathon. A full-stack web platform designed to support socially isolated individuals, featuring an AI chatbot and dynamic content management.',
     image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg', // Community/connection themed image
     technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'SQL'],
-    liveUrl: 'https://belong-adityapatel.link',
+    liveUrl: 'https://www.belong-adityapatel.link',
     githubUrl: 'https://github.com/adityapatel0209/Belong',
   },
   {
